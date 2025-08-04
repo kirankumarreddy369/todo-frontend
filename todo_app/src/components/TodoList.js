@@ -43,7 +43,7 @@ export default function TodoList() {
         setTodos([]); // Optional: clear list on error
       })
       .finally(() => setIsLoading(false));
-    // }, 2000);
+    //  }, 2000);
   };
 
   useEffect(() => {
